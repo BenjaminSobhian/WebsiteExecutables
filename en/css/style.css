@@ -19,6 +19,9 @@ header {
 .link:hover {
 	color: #FFFFFF;
 }
+.link {
+	color: white;
+}
 
 .content {
     width: 94%;
