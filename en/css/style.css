@@ -138,7 +138,7 @@ footer {
           rgba(0, 0, 0, 0.5), 
           rgba(0, 0, 0, 0.5)
         ),
-	  url(https://pixabay.com/get/52e3d6444f50a814f6d1867dda3536781539d7e55653774c_1920.jpg);
+	  url("../../imgs/homebackground.jpg");
 
   /* Set a specific height */
   height: 100%;
