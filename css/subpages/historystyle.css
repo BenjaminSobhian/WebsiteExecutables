@@ -131,7 +131,6 @@ body {
 
 /* Make all right containers behave like the left ones */
   .rightside {
-  .rightside {
     left: 0%;
   }
 }
