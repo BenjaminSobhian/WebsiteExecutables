@@ -8,10 +8,12 @@ $(document).ready(function() {
 
 $(window).on("scroll", function() {
     if($(window).scrollTop()) {
-          $('nav').addClass('black');
+          $('nav').addClass('navbar_black');
+		$('nav').removeClass('navbar_transparent');
     }
 
     else {
-          $('nav').removeClass('black');
+          $('nav').addClass('navbar_transparent');
+		$('nav').removeClass('navbar_black');
     }
 })
