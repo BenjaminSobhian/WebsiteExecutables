@@ -20,7 +20,7 @@ a {
     -webkit-transition: all .2s ease-in;
     transition: all .2s ease-in;
 }
-a:hover {
+nav a:hover {
 	color: white;
 	text-decoration: none;
 }
