@@ -63,7 +63,7 @@ nav ul {
 }
 
 nav.black ul {
-    background: #000;
+    background: #1D1D1D;
 }
 
 nav ul li {
@@ -81,7 +81,7 @@ nav ul li a {
 .menu-icon {
     line-height: 60px;
     width: 100%;
-    background: #000;
+    background: #1D1D1D;
     text-align: right;
     box-sizing: border-box;
     padding: 15px 24px;
@@ -100,11 +100,11 @@ nav ul li a {
 
     nav ul {
           max-height: 0px;
-          background: #000;
+          background: #1D1D1D;
     }
 
     nav.black ul {
-          background: #000;
+          background: #1D1D1D;
     }
 
     .showing {
