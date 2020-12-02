@@ -16,6 +16,10 @@ header {
     background-size: cover;
 }
 
+.link:hover {
+	color: #FFFFFF;
+}
+
 .content {
     width: 94%;
     margin: 4em auto;
