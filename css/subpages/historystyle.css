@@ -296,7 +296,7 @@ url("../../imgs/history.jpg");
     -webkit-transition: all .2s ease-in;
     transition: all .2s ease-in;
 	background-color: #1D1D1D;
-  z-index: 2;
+    z-index: 2;
 }
 .navbar_transparent {
 	-moz-transition: all .2s ease-in;
