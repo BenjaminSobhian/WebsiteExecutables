@@ -12,12 +12,14 @@ body {
 header {
     width: 100%;
     height: 100vh;
-    background: url(https://pixabay.com/get/52e3d6444f50a814f6d1867dda3536781539d7e55653774c_1920.jpg) no-repeat 50% 50%;
-    background-size: cover;
+
 }
 
 .link:hover {
 	color: #FFFFFF;
+}
+.link {
+	color: white;
 }
 
 .content {
