@@ -129,3 +129,17 @@ nav ul li a {
 footer {
 	background-color: #FF6666
 }
+
+.parallax {
+  /* The image used */
+  background-image: url(https://pixabay.com/get/52e3d6444f50a814f6d1867dda3536781539d7e55653774c_1920.jpg);
+
+  /* Set a specific height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
