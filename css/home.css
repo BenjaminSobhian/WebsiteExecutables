@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 html, body {
     margin: 0;
     padding: 0;
@@ -91,7 +92,7 @@ nav ul li a {
     display: none;
 }
 
-@media(max-width: 786px) {
+@media(max-width: 1360px) {
 
     .logo {
           position: fixed;
@@ -230,18 +231,20 @@ url("../imgs/homebackground.jpg");
 .waveAnimation .waveBottom {
     animation: move_wave 15s linear infinite;
 }
-h1 {
-	color: white;
-	z-index: 150;
-	font-size: 100;
+
+@media(min-width: 600px) {
+	.hero-text .h1 {
+		font-size-adjust: 1;
+	}
 }
 .hero-text {
- 	text-align: center;
+	text-align: left;
 	position: absolute;
-	top: 50%;
-	left: 50%;
-  	transform: translate(-50%, -50%);
-  	color: white;
+	top: 45vh;
+	left: 360px;
+	transform: translate(-50%, -50%);
+	color: white;
 	z-index: 90;
+	font-size-adjust: 1.3;
 	
 }
