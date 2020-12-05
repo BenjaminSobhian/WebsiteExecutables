@@ -185,8 +185,8 @@ url("../imgs/homebackground.jpg");
     overflow: hidden;
     height: 100%;
     bottom: 0px;
-/*    background-image: linear-gradient(to top, #dc3545 10%, #1D1D1D 90%);*/
-	background-color: #dc3545;
+    background-image: linear-gradient(to top, #dc3545 1%, #1D1D1D 99%);
+
 }
 .bgTop {
     z-index: 15;
