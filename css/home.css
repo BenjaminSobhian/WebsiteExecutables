@@ -117,13 +117,16 @@ nav ul li a {
     nav ul li {
           box-sizing: border-box;
           width: 100%;
-          padding: 24px;
+          padding: 10px;
           text-align: center;
     }
 
     .menu-icon {
           display: block;
     }
+	.logo{
+		visibility: hidden;
+	}
 
 }
 
@@ -230,9 +233,9 @@ url("../imgs/homebackground.jpg");
     animation: move_wave 15s linear infinite;
 }
 
-@media(min-width: 600px) {
-	.hero-text .h1 {
-		font-size-adjust: 1;
+@media(max-width: 700px) {
+	.hero-text {
+		visibility: hidden;
 	}
 }
 .hero-text {
