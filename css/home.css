@@ -25,6 +25,12 @@ nav a:hover {
 	color: #dc3543;
 	text-decoration: none;
 }
+nav .active {
+	color:#dc3543; 
+}
+nav .active:hover {
+	color: #FFF;
+}
 .content {
     width: 94%;
     margin: 4em auto;
@@ -92,7 +98,21 @@ nav ul li a {
     color: #fff;
     display: none;
 }
-
+.navbar_black {
+	-moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+	background-color: #1D1D1D;
+}
+.navbar_transparent {
+	-moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+	background-color: transparent;
+	
+}
 @media(max-width: 1360px) {
 
     .logo {
@@ -130,6 +150,8 @@ nav ul li a {
 
 }
 
+/*---------------------------NAVBAR END--------------------------------*/
+
 .parallax {
   /* The image used */
   background-image: linear-gradient( 
@@ -147,21 +169,7 @@ url("../imgs/homebackground.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 } 
-.navbar_black {
-	-moz-transition: all .2s ease-in;
-    -o-transition: all .2s ease-in;
-    -webkit-transition: all .2s ease-in;
-    transition: all .2s ease-in;
-	background-color: #1D1D1D;
-}
-.navbar_transparent {
-	-moz-transition: all .2s ease-in;
-    -o-transition: all .2s ease-in;
-    -webkit-transition: all .2s ease-in;
-    transition: all .2s ease-in;
-	background-color: transparent;
-	
-}
+
 @keyframes move_wave {
     0% {
         transform: translateX(0) translateZ(0) scaleY(1)
@@ -249,3 +257,4 @@ url("../imgs/homebackground.jpg");
 	font-size-adjust: 1.3;
 	
 }
+
