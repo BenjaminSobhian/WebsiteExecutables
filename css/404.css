@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 html, body {
-    margin: 0;
-    padding: 0;
     width: 100%;
 }
-
+header {
+	height: 25vh;
+}
+#main {
+	padding-bottom: 25vh;
+}
 body {
     font-family: "Helvetica Neue",sans-serif;
     font-weight: lighter;
@@ -25,13 +28,7 @@ nav .active {
 nav .active:hover {
 	color: #FFF;
 }
-.content {
-    width: 94%;
-    margin: 4em auto;
-    font-size: 20px;
-    line-height: 30px;
-    text-align: justify;
-}
+
 
 .logo {
     line-height: 60px;

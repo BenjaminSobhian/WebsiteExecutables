@@ -144,10 +144,6 @@ nav ul li a {
     .menu-icon {
           display: block;
     }
-	.logo{
-		visibility: hidden;
-	}
-
 }
 
 /*---------------------------NAVBAR END--------------------------------*/
@@ -241,11 +237,7 @@ url("../imgs/homebackground.jpg");
     animation: move_wave 15s linear infinite;
 }
 
-@media(max-width: 700px) {
-	.hero-text {
-		visibility: hidden;
-	}
-}
+
 .hero-text {
 	text-align: left;
 	position: absolute;
@@ -257,4 +249,8 @@ url("../imgs/homebackground.jpg");
 	font-size-adjust: 1.3;
 	
 }
-
+@media(max-width: 700px) {
+	.hero-text {
+		display: none;
+	}
+}
