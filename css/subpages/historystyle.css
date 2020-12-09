@@ -223,6 +223,7 @@ nav.black ul {
 nav ul li {
     display: inline-block;
     padding: 16px 40px;
+
 }
 
 nav ul li a {
@@ -306,23 +307,4 @@ url("../../imgs/history.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-<<<<<<< HEAD
-}
-.navbar_black {
-	-moz-transition: all .2s ease-in;
-    -o-transition: all .2s ease-in;
-    -webkit-transition: all .2s ease-in;
-    transition: all .2s ease-in;
-	background-color: #1D1D1D;
-    z-index: 2;
-}
-.navbar_transparent {
-	-moz-transition: all .2s ease-in;
-    -o-transition: all .2s ease-in;
-    -webkit-transition: all .2s ease-in;
-    transition: all .2s ease-in;
-	background-color: transparent;
-}
-=======
 } 
->>>>>>> origin/master
