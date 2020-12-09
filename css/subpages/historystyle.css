@@ -158,16 +158,23 @@ body {
 header {
     width: 100%;
     height: 100vh;
+
 }
-nav a { 
+a { 
     -moz-transition: all .2s ease-in;
     -o-transition: all .2s ease-in;
     -webkit-transition: all .2s ease-in;
     transition: all .2s ease-in;
 }
 nav a:hover {
-	color: white;
+	color: #dc3543;
 	text-decoration: none;
+}
+nav .active {
+	color:#dc3543; 
+}
+nav .active:hover {
+	color: #FFF;
 }
 .content {
     width: 94%;
@@ -192,6 +199,7 @@ nav {
     position: fixed;
     width: 100%;
     line-height: 60px;
+	z-index: 100;
 }
 
 nav ul {
@@ -205,6 +213,7 @@ nav ul {
     margin: 0;
     padding-right: 40px;
     transition: 1s;
+	
 }
 
 nav.black ul {
@@ -213,12 +222,12 @@ nav.black ul {
 
 nav ul li {
     display: inline-block;
-    padding: 16px 40px;;
+    padding: 16px 40px;
 }
 
 nav ul li a {
     text-decoration: none;
-    color: #dc3545;
+    color: #FFFFFF;
     font-size: 16px;
 	font-weight: bold;
 }
@@ -234,8 +243,22 @@ nav ul li a {
     color: #fff;
     display: none;
 }
-
-@media(max-width: 786px) {
+.navbar_black {
+	-moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+	background-color: #1D1D1D;
+}
+.navbar_transparent {
+	-moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+	background-color: transparent;
+	
+}
+@media(max-width: 1360px) {
 
     .logo {
           position: fixed;
@@ -259,23 +282,17 @@ nav ul li a {
     nav ul li {
           box-sizing: border-box;
           width: 100%;
-          padding: 24px;
+          padding: 10px;
           text-align: center;
     }
 
     .menu-icon {
           display: block;
     }
-
 }
-
-#navbarlogo {
-	width: 50%;
-}
-
 .parallax {
   /* The image used */
-  background-image: linear-gradient(
+  background-image: linear-gradient( 
           rgba(0, 0, 0, 0.5), 
           rgba(0, 0, 0, 0.5)
         ),
@@ -289,6 +306,7 @@ url("../../imgs/history.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+<<<<<<< HEAD
 }
 .navbar_black {
 	-moz-transition: all .2s ease-in;
@@ -305,3 +323,6 @@ url("../../imgs/history.jpg");
     transition: all .2s ease-in;
 	background-color: transparent;
 }
+=======
+} 
+>>>>>>> origin/master
