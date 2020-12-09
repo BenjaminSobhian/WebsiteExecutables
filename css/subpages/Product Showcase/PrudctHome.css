@@ -58,15 +58,14 @@ nav {
 }
 
 nav ul {
-    line-height: 60px;
+    line-height: 15px;
     list-style: none;
     background: rgba(0, 0, 0, 0);
     overflow: hidden;
     color: #fff;
     padding: 0;
-    text-align: right;
+    text-align: center;
     margin: 0;
-    padding-right: 40px;
     transition: 1s;
 	
 }
@@ -83,8 +82,8 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: #FFFFFF;
-    font-size: 16px;
-	font-weight: bold;
+    font-size: 15px;
+	font-weight: 600;
 }
 
 .menu-icon {
