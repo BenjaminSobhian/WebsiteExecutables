@@ -38,24 +38,49 @@
     <!-- Eigenes CSS -->
     <link rel="stylesheet" href="../css/404-style.css"/>
     <title>Error 404 - Page not found</title>
+    <link rel="icon" href="../imgs/icon.png" type="image/x-icon">
 </head>
 <body>
+<script src="../js/index.js"></script>
 <header class="wrapper">
-    <nav>
-        <div class="menu-icon"><i class="fa fa-bars fa-2x"></i></div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
         <a href="index.html">
-            <div class="logo"><img src="../imgs/logo-small.png" alt="Logo"></div>
+            <img class="navbar-brand logo" src="../imgs/logo.png" alt="Logo">
         </a>
-        <div class="menu navbar_black">
-            <ul>
-                <li><a href="subpages/news-events.html">News and Events</a></li>
-                <li><a href="subpages/about_us/about-us.html">About us</a></li>
-                <li><a href="subpages/products/showcase-home.html">Product showcase</a></li>
-                <li><a href="subpages/careers/application.html">Careers</a></li>
-                <li><a href="subpages/about_us/history.html">History</a></li>
+
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="subpages/news-events.html">News and Events</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="" data-toggle="dropdown">About us</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="subpages/about_us/history.html">Our history</a>
+                        <a class="dropdown-item" href="subpages/about_us/vision.html">Our vision</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="subpages/products/showcase-home.html">Product showcase</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="" data-toggle="dropdown">Careers</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="subpages/about_us/history.html">Experience</a>
+                        <a class="dropdown-item" href="subpages/careers/jobs.html">Jobs</a>
+                    </div>
+                </li>
             </ul>
         </div>
     </nav>
+    <div class="parallax"></div>
 </header>
 
 
