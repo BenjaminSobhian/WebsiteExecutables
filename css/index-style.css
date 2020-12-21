@@ -103,7 +103,9 @@ nav ul li {
     nav.black ul {
         background: #1D1D1D;
     }
-
+	.navbar {
+		background: #1D1D1D;
+	}
     .showing {
         max-height: 34em;
     }
@@ -121,7 +123,7 @@ nav ul li {
             rgba(0, 0, 0, 0.25),
             rgba(0, 0, 0, 0.25)
     ),
-    url("../imgs/homebackground.jpg");
+    url("../imgs/home/homebackground.jpg");
 
     /* Set a specific height */
     height: 100%;
