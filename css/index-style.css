@@ -24,6 +24,10 @@ header {
 }
 
 .navbar-nav .nav-item a:hover {
+	-moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
     color: #DC3543 !important;
 }
 
@@ -32,6 +36,10 @@ header {
 }
 
 .navbar-nav .nav-item a .active:hover {
+	-moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
     color: #F8F9FA !important;
 }
 
@@ -66,7 +74,10 @@ nav .black ul {
 nav ul li {
     padding: 0 40px;
 }
-
+.dropdown-item:active .dropdown-item {
+	background: #FFFFFF;
+	color: #DC3543;
+}
 .menu-icon {
     line-height: 60px;
     width: 100%;

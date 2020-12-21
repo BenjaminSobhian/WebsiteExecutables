@@ -38,7 +38,10 @@ header {
 .dropdown-menu {
     background: #DC3543;
 }
-
+a.dropdown-item.active {
+	background: #FFFFFF !important;
+	color: #DC3543 !important;
+}
 .content {
     width: 95%;
     margin: 4em auto;
