@@ -120,8 +120,12 @@ nav ul li {
 @media (max-width: 1360px) {
     .logo {
         top: 0;
-        margin-top: 16px;
+		display: none;
     }
+	.small-logo {
+		width: 70%;
+		line-height: 60px;
+	}
 
     nav.black ul {
         background: #1D1D1D;
@@ -136,6 +140,14 @@ nav ul li {
     .menu-icon {
         display: block;
     }
+}
+@media(min-width:1360px) {
+	.small-logo {
+		display: none;
+	}
+	.logo {
+		display: block;
+	}
 }
 
 /* for language icons, todo */
