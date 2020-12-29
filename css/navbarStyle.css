@@ -117,7 +117,7 @@ nav ul li {
     background-color: transparent;
 }
 
-@media (max-width: 1360px) {
+@media(max-width: 1360px) {
     .logo {
         top: 0;
 		display: none;
@@ -141,7 +141,7 @@ nav ul li {
         display: block;
     }
 }
-@media(min-width:1360px) {
+@media(min-width: 1360px) {
 	.small-logo {
 		display: none;
 	}
