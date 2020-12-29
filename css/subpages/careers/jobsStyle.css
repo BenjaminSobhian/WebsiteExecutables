@@ -15,3 +15,86 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.card-body {
+    padding-bottom: 0;
+}
+
+.move-card-body-up {
+    animation-timing-function: ease-in;
+    transition: transform .2s ease-in-out;
+    transition-property: transform;
+    transition-duration: .2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    background: white;
+    position: relative;
+    transform: translateY(-50px);
+    height: 0;
+}
+
+.move-card-body-down {
+    animation-timing-function: ease-in;
+    transition: transform .1s ease-in-out;
+    transition-property: transform;
+    transition-duration: .1s;
+    transition-timing-function: ease-in-out;
+    background: inherit;
+    position: relative;
+    height: 62px;
+}
+
+.zoom-container {
+    overflow: hidden;
+}
+
+.card-img-top {
+    transition: transform ease 0.3s;
+    overflow: hidden;
+}
+
+.img-hover-zoom {
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+    opacity: 95%;
+    transform: scale(1.1);
+}
+
+.btn {
+    display: block;
+    opacity: 0;
+    height: 0;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.show-button {
+    /* --------------- fade in --------------- */
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+    height: initial;
+    padding: 5px;
+    opacity: 100%;
+}
+
+.hide-button {
+    /* --------------- fade out --------------- */
+    -moz-transition: all .1s ease-in;
+    -o-transition: all .1s ease-in;
+    -webkit-transition: all .1s ease-in;
+    transition: all .1s ease-in;
+    opacity: 0;
+}
+
+@media(max-width: 1360px) {
+    .btn {
+        height: initial;
+        padding: 5px;
+        opacity: 100%;
+        margin-bottom: 15px;
+    }
+}

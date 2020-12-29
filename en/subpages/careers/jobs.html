@@ -38,17 +38,20 @@
     <!-- Eigenes CSS -->
     <link rel="stylesheet" href="../../../css/subpages/careers/jobsStyle.css"/>
     <link rel="stylesheet" href="../../../css/navbarStyle.css"/>
+    <script src="../../../js/navbarColoring.js"></script>
+    <script src="../../../js/jobs_card_hover.js"></script>
 
     <title>Jobs - Executables</title>
     <link rel="icon" href="../../../imgs/icon.png" type="image/x-icon">
 </head>
+
 <body>
-<script src="../../../js/navbarColoring.js"></script>
 <header class="wrapper">
     <!-- Navbar -->
     <nav class="navbar navbar-expand-md navbar-dark fixed-top">
         <a class="navbar-brand" href="../../index.html">
             <img class="img-fluid logo" src="../../../imgs/logo.png" alt="Logo">
+            <img class="small-logo" src="../../../imgs/icon.png" alt="Logo">
         </a>
 
         <!-- Toggler/collapsibe Button -->
@@ -60,7 +63,7 @@
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="../newsEvents.html">News and Events</a>
+                    <a class="nav-link" href="../newsroom.html">News and Events</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="" data-toggle="dropdown">About us</a>
@@ -93,23 +96,44 @@
                 <h1>Jobs</h1>
             </div>
             <div class="col-md-8">
-                <div class="card-deck">
-                    <div class="card">
-                        <img class="card-img-top" src="../../../imgs/jobs/softwareEngineer.jpg"
-                             alt="Image of Software Engineering">
-                        <div class="card-body">
+                <div class="card-deck" id="card-deck">
+                    <div class="card zoom-container" onmouseover="showButton('1')" onmouseleave="hideButton('1')">
+                        <div class="zoom-container">
+                            <img class="card-img-top" id="img-1" src="../../../imgs/jobs/softwareEngineer.jpg"
+                                 alt="Image of software engineering">
+                        </div>
+                        <div class="card-body" id="body-1">
                             <h4 class="card-title">Software Engineer</h4>
-                            <p class="card-text"></p>
-                            <a href="application.html" class="btn btn-primary stretched-link">Interested?</a>
+                            <a class="btn btn-danger stretched-link" id="button-1" href="application.html"
+                               onclick="apply('Software Engineer')">
+                                Interested?
+                            </a>
                         </div>
                     </div>
-                    <div class="card">
-                        <img class="card-img-top" src="../../../imgs/jobs/marketingManager.jpg"
-                             alt="Image of Marketing Manager">
-                        <div class="card-body">
+                    <div class="card zoom-container" onmouseover="showButton('2')" onmouseleave="hideButton('2')">
+                        <div class="zoom-container">
+                            <img class="card-img-top" id="img-2" src="../../../imgs/jobs/marketingManager.jpg"
+                                 alt="Image of marketing manager">
+                        </div>
+                        <div class="card-body" id="body-2">
                             <h4 class="card-title">Marketing Manager</h4>
-                            <p class="card-text"></p>
-                            <a href="application.html" class="btn btn-primary stretched-link">Interested?</a>
+                            <a class="btn btn-danger stretched-link" id="button-2" href="application.html"
+                               onclick="apply('Marketing Manager')">
+                                Interested?
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card zoom-container" onmouseover="showButton('3')" onmouseleave="hideButton('3')">
+                        <div class="zoom-container">
+                            <img class="card-img-top" id="img-3" src="../../../imgs/jobs/designer.jpg"
+                                 alt="Image of designer">
+                        </div>
+                        <div class="card-body" id="body-3">
+                            <h4 class="card-title">Designer</h4>
+                            <a class="btn btn-danger stretched-link" id="button-3" href="application.html"
+                               onclick="apply('Designer')">
+                                Interested?
+                            </a>
                         </div>
                     </div>
                 </div>
