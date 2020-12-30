@@ -34,63 +34,51 @@
             integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
             crossorigin="anonymous"
     />
-    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-    <!-- Eigenes CSS -->
-    <link rel="stylesheet" href="../css/indexStyle.css"/>
-    <link rel="stylesheet" href="../css/navbarStyle.css"/>
-    <script src="../js/navbarColoring.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script> 
 
-    <title>Executables</title>
-    <link rel="icon" href="../imgs/icon.png" type="image/x-icon">
+<!-- Eigenes CSS -->
+<link rel="stylesheet" href="../css/indexStyle.css"/>
+<link rel="stylesheet" href="../css/navbarStyle.css"/>
+<script src="../js/navbarColoring.js"></script>
+<title>Executables</title>
+<link rel="icon" href="../imgs/icon.png" type="image/x-icon">
+
+<!-- AOS libary -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
-<header class="wrapper">
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
-        <a class="navbar-brand" href="index.html">
-            <img class="img-fluid logo" src="../imgs/logo.png" alt="Logo">
-			<img class="small-logo" src="../imgs/icon.png" alt="Logo">
-        </a>
-
-        <!-- Toggler/collapsibe Button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <!-- Navbar links -->
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="subpages/newsroom.html">News and Events</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="" data-toggle="dropdown">About us</a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="subpages/about_us/history.html">Our history</a>
-                        <a class="dropdown-item" href="subpages/about_us/vision.html">Our vision</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="subpages/products/showcaseHome.html">Product showcase</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="" data-toggle="dropdown">Careers</a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="subpages/careers/experience.html">Experience</a>
-                        <a class="dropdown-item" href="subpages/careers/jobs.html">Jobs</a>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <div class="hero-image">
-        <div class="hero-text">
-            <h1 class="slogan">PURE.</h1>
-            <h1 class="slogan">INNOVATION.</h1>
-        </div>
+<script>
+  AOS.init();
+</script>
+<header class="wrapper"> 
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top"> <a class="navbar-brand" href="index.html"> <img class="img-fluid logo" src="../imgs/logo.png" alt="Logo"> <img class="small-logo" src="../imgs/icon.png" alt="Logo"> </a> 
+    
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"> <span class="navbar-toggler-icon"></span> </button>
+    
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"> <a class="nav-link" href="subpages/newsroom.html">News and Events</a> </li>
+        <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="" data-toggle="dropdown">About us</a>
+          <div class="dropdown-menu"> <a class="dropdown-item" href="subpages/about_us/history.html">Our history</a> <a class="dropdown-item" href="subpages/about_us/vision.html">Our vision</a> </div>
+        </li>
+        <li class="nav-item"> <a class="nav-link" href="subpages/products/showcaseHome.html">Product showcase</a> </li>
+        <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="" data-toggle="dropdown">Careers</a>
+          <div class="dropdown-menu"> <a class="dropdown-item" href="subpages/careers/experience.html">Experience</a> <a class="dropdown-item" href="subpages/careers/jobs.html">Jobs</a> </div>
+        </li>
+      </ul>
     </div>
-
+  </nav>
+  <div class="hero-image">
+    <div class="hero-text">
+      <h1 class="slogan">PURE.</h1>
+      <h1 class="slogan">INNOVATION.</h1>
+    </div>
+  </div>
   <div class="waveWrapper waveAnimation">
     <div class="waveWrapperInner bgTop">
       <div class="wave waveTop"
@@ -107,7 +95,7 @@
   </div>
 </header>
 <main class="content p-5">
-  <h3 class="m-4"> We build technologies that help people connect with friends and family, find communities, and grow businesses.
+  <h3 class="m-4" data-aos="fade-up"> We build technologies that help people connect with friends and family, find communities, and grow businesses.
     
     
     todo </h3>
