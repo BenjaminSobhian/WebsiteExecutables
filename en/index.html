@@ -1,130 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8"/>
-<link
+    <meta charset="utf-8"/>
+    <link
             href="https://fonts.googleapis.com/css?family=Roboto"
             rel="stylesheet"
     />
-<link
+    <link
             href="https://fonts.googleapis.com/css?family=Charmonman"
             rel="stylesheet"
     />
-<link
+    <link
             href="https://fonts.googleapis.com/css?family=Mali"
             rel="stylesheet"
     />
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<!-- Latest compiled and minified CSS -->
-<link
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Latest compiled and minified CSS -->
+    <link
             id="bootstrap-css"
             rel="stylesheet"
             href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
     />
-<!-- jQuery library --> 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
-<!-- Popper JS --> 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script> 
-<!-- Latest compiled JavaScript --> 
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-<link
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link
             rel="stylesheet"
             href="https://use.fontawesome.com/releases/v5.4.2/css/all.css"
             integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
             crossorigin="anonymous"
     />
-<script src="https://code.jquery.com/jquery-3.3.1.js"></script> 
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <!-- AOS libary -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-<!-- Eigenes CSS -->
-<link rel="stylesheet" href="../css/indexStyle.css"/>
-<link rel="stylesheet" href="../css/navbarStyle.css"/>
-<script src="../js/navbarColoring.js"></script>
-<title>Executables</title>
-<link rel="icon" href="../imgs/icon.png" type="image/x-icon">
-
-<!-- AOS libary -->
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Eigenes CSS -->
+    <link rel="stylesheet" href="../css/indexStyle.css"/>
+    <link rel="stylesheet" href="../css/navbarStyle.css"/>
+    <script src="../js/navbarColoring.js"></script>
+    <title>Executables</title>
+    <link rel="icon" href="../imgs/icon.png" type="image/x-icon">
 </head>
 
 <body>
 <script>
-  AOS.init();
+    AOS.init();
 </script>
-<header class="wrapper"> 
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top"> <a class="navbar-brand" href="index.html"> <img class="img-fluid logo" src="../imgs/logo.png" alt="Logo"> <img class="small-logo" src="../imgs/icon.png" alt="Logo"> </a> 
-    
-    <!-- Toggler/collapsibe Button -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"> <span class="navbar-toggler-icon"></span> </button>
-    
-    <!-- Navbar links -->
-    <div class="collapse navbar-collapse" id="collapsibleNavbar">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item"> <a class="nav-link" href="subpages/newsroom.html">News and Events</a> </li>
-        <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="" data-toggle="dropdown">About us</a>
-          <div class="dropdown-menu"> <a class="dropdown-item" href="subpages/about_us/history.html">Our history</a> <a class="dropdown-item" href="subpages/about_us/vision.html">Our vision</a> </div>
-        </li>
-        <li class="nav-item"> <a class="nav-link" href="subpages/products/showcaseHome.html">Product showcase</a> </li>
-        <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="" data-toggle="dropdown">Careers</a>
-          <div class="dropdown-menu"> <a class="dropdown-item" href="subpages/careers/experience.html">Experience</a> <a class="dropdown-item" href="subpages/careers/jobs.html">Jobs</a> </div>
-        </li>
-      </ul>
+
+<header class="wrapper">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top"><a class="navbar-brand" href="index.html"> <img
+            class="img-fluid logo" src="../imgs/logo.png" alt="Logo"> <img class="small-logo" src="../imgs/icon.png"
+                                                                           alt="Logo"> </a>
+
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"><span
+                class="navbar-toggler-icon"></span></button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="" data-toggle="dropdown">About us</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="subpages/about_us/newsroom.html">Newsroom</a>
+                        <a class="dropdown-item" href="subpages/about_us/history.html">Our history</a>
+                        <a class="dropdown-item" href="subpages/about_us/vision.html">Our vision</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="subpages/products/showcaseHome.html">Product showcase</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="" data-toggle="dropdown">Careers</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="subpages/careers/experience.html">Experience</a>
+                        <a class="dropdown-item" href="subpages/careers/jobs.html">Jobs</a>
+                    </div>
+                </li>
+
+                <!-- language -->
+                <li class="nav-item">
+                    <a class="nav-link" href="../de/index.html">DE</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="hero-image">
+        <div class="hero-text">
+            <h1 class="slogan">PURE.</h1>
+            <h1 class="slogan">INNOVATION.</h1>
+        </div>
     </div>
-  </nav>
-  <div class="hero-image">
-    <div class="hero-text">
-      <h1 class="slogan">PURE.</h1>
-      <h1 class="slogan">INNOVATION.</h1>
-    </div>
-  </div>
-  <div class="waveWrapper waveAnimation">
-    <div class="waveWrapperInner bgTop">
-      <div class="wave waveTop"
+    <div class="waveWrapper waveAnimation">
+        <div class="waveWrapperInner bgTop">
+            <div class="wave waveTop"
                  style="background-image: url('../imgs/home/waveTop.png')"></div>
-    </div>
-    <div class="waveWrapperInner bgMiddle">
-      <div class="wave waveMiddle"
+        </div>
+        <div class="waveWrapperInner bgMiddle">
+            <div class="wave waveMiddle"
                  style="background-image: url('../imgs/home/waveMid.png')"></div>
-    </div>
-    <div class="waveWrapperInner bgBottom">
-      <div class="wave waveBottom"
+        </div>
+        <div class="waveWrapperInner bgBottom">
+            <div class="wave waveBottom"
                  style="background-image: url('../imgs/home/waveBot.png')"></div>
+        </div>
     </div>
-  </div>
 </header>
 <main class="content p-5">
-  <h3 class="m-4" data-aos="fade-up"> We build technologies that help people connect with friends and family, find communities, and grow businesses.
-    
-    
-    todo </h3>
+    <h3 class="m-4" data-aos="fade-up"> We build technologies that help people connect with friends and family, find
+        communities, and grow businesses.
+
+
+        todo </h3>
 </main>
 
 <!-- Footer -->
 <footer class="jumbotron rounded-0 bg-danger text-white mb-0">
-  <div class="container-fluid">
-    <div class="row text-center">
-      <div class="col-md-4">
-        <h1>About</h1>
-        <a href="../de/subpages/impressum/impressum.html" id="footerlink">Impressum (DE)</a>
-        <p>AGB</p>
-      </div>
-      <div class="col-md-4">
-        <h1>Contact</h1>
-        <p><i class="fas fa-phone"></i> +43 123 456789</p>
-        <p><i class="fas fa-envelope"></i> executables@exe.com</p>
-      </div>
-      <div class="col-md-4">
-        <h1>Social Media</h1>
-        <p><i class="fab fa-facebook-square"></i> Facebook</p>
-        <p><i class="fab fa-instagram"></i> Instagram</p>
-      </div>
+    <div class="container-fluid">
+        <div class="row text-center">
+            <div class="col-md-4">
+                <h1>About</h1>
+                <a href="../de/subpages/impressum.html" id="footerlink">Impressum (DE)</a>
+                <p>AGB</p>
+            </div>
+            <div class="col-md-4">
+                <h1>Contact</h1>
+                <p><i class="fas fa-phone"></i> +43 123 456789</p>
+                <p><i class="fas fa-envelope"></i> executables@exe.com</p>
+            </div>
+            <div class="col-md-4">
+                <h1>Social Media</h1>
+                <p><i class="fab fa-facebook-square"></i> Facebook</p>
+                <p><i class="fab fa-instagram"></i> Instagram</p>
+            </div>
+        </div>
+        <div class="text-center mt-5">
+            <p>Created by: Benjamin Sobhian</p>
+        </div>
     </div>
-    <div class="text-center mt-5">
-      <p>Created by: Benjamin Sobhian</p>
-    </div>
-  </div>
 </footer>
 </body>
 </html>

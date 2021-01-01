@@ -34,6 +34,13 @@
             integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
             crossorigin="anonymous"
     />
+    <!-- AOS libary -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <link rel="stylesheet" href="../../../css/subpages/about_us/visionStyle.css"/>
     <link rel="stylesheet" href="../../../css/navbarStyle.css"/>
@@ -41,15 +48,9 @@
 
     <title>Our vision - Executables</title>
     <link rel="icon" href="../../../imgs/icon.png" type="image/x-icon">
-<!-- AOS libary -->
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
-<script>
-  AOS.init();
-</script>
 <header class="wrapper">
     <!-- Navbar -->
     <nav class="navbar navbar-expand-md navbar-dark fixed-top">
@@ -66,14 +67,12 @@
         <!-- Navbar links -->
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="../newsroom.html">News and Events</a>
-                </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="" data-toggle="dropdown">About us</a>
                     <div class="dropdown-menu">
-                        <a class="dropdown-item" href="../../subpages/about_us/history.html">Our history</a>
-                        <a class="dropdown-item active" href="../../subpages/about_us/vision.html">Our vision</a>
+                        <a class="dropdown-item" href="newsroom.html">Newsroom</a>
+                        <a class="dropdown-item" href="history.html">Our history</a>
+                        <a class="dropdown-item active" href="vision.html">Our vision</a>
                     </div>
                 </li>
                 <li class="nav-item">
@@ -86,14 +85,63 @@
                         <a class="dropdown-item" href="../careers/jobs.html">Jobs</a>
                     </div>
                 </li>
+
+                <!-- language -->
+                <li class="nav-item">
+                    <a class="nav-link" href="../../../de/subpages/about_us/vision.html">DE</a>
+                </li>
             </ul>
         </div>
     </nav>
     <div class="parallax"></div>
 </header>
 
-<main class="content">
-
+<main>
+    <div class="content mb-5">
+        <!-- benefits -->
+        <div class="container-fluid">
+            <div class="row justify-content-md-center">
+                <div class="col-md-10">
+                    <h1>Environmental goals</h1>
+                </div>
+                <div class="col-md-10">
+                    <table class="table table-striped">
+                        <tr>
+                            <th>Where we want to help</th>
+                            <th>Now</th>
+                            <th>By 2030</th>
+                        </tr>
+                        <tr>
+                            <td>Annual budget for environmental projects</td>
+                            <td>250.000 US-dollars</td>
+                            <td>1.500.000 US-dollars</td>
+                        </tr>
+                        <tr>
+                            <td>Packaging for our products</td>
+                            <td>75% biodegradable materials</td>
+                            <td>100% biodegradable materials</td>
+                        </tr>
+                        <tr>
+                            <td>Trees planted</td>
+                            <td>5.000</td>
+                            <td>50.000+</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <img class="img-fluid img-max" src="../../../imgs/environment.jpg" alt="The environment we have to protect">
+    <div class="container-fluid">
+        <div class="row justify-content-md-center">
+            <div class="col-md-10 mb-5">
+                <h3 class="mt-5 text-center">
+                    We are taking steps to reduce our emissions and setting the goal to reach net zero for our company’s
+                    value chain by 2030.
+                </h3>
+            </div>
+        </div>
+    </div>
 </main>
 
 <!-- Footer -->
@@ -102,7 +150,7 @@
         <div class="row text-center">
             <div class="col-md-4">
                 <h1>About</h1>
-                <a href="../../../de/subpages/impressum/impressum.html">Impressum (DE)</a>
+                <a href="../../../de/subpages/impressum.html">Impressum (DE)</a>
                 <p>AGB</p>
             </div>
             <div class="col-md-4">

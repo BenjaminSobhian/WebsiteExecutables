@@ -32,6 +32,10 @@
             integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
             crossorigin="anonymous"
     />
+    <!-- AOS libary -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <!-- Eigenes CSS -->
     <link rel="stylesheet" href="../../../css/subpages/careers/experienceStyle.css"/>
     <link rel="stylesheet" href="../../../css/navbarStyle.css"/>
@@ -39,15 +43,13 @@
 
     <title>Experience - Executables</title>
     <link rel="icon" href="../../../imgs/icon.png" type="image/x-icon">
-<!-- AOS libary -->
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
 <script>
-  AOS.init();
+    AOS.init();
 </script>
+
 <header class="wrapper">
     <!-- Navbar -->
     <nav class="navbar navbar-expand-md navbar-dark fixed-top">
@@ -64,14 +66,12 @@
         <!-- Navbar links -->
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="../newsroom.html">News and Events</a>
-                </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="" data-toggle="dropdown">About us</a>
                     <div class="dropdown-menu">
-                        <a class="dropdown-item" href="../../subpages/about_us/history.html">Our history</a>
-                        <a class="dropdown-item" href="../../subpages/about_us/vision.html">Our vision</a>
+                        <a class="dropdown-item" href="../about_us/newsroom.html">Newsroom</a>
+                        <a class="dropdown-item" href="../about_us/history.html">Our history</a>
+                        <a class="dropdown-item" href="../about_us/vision.html">Our vision</a>
                     </div>
                 </li>
                 <li class="nav-item">
@@ -84,55 +84,86 @@
                         <a class="dropdown-item" href="jobs.html">Jobs</a>
                     </div>
                 </li>
+
+                <!-- language -->
+                <li class="nav-item">
+                    <a class="nav-link" href="../../../de/subpages/careers/experience.html">DE</a>
+                </li>
             </ul>
         </div>
     </nav>
     <div class="parallax"></div>
 </header>
 
-<main class="content p-5">
-    <!-- video -->
-    <div class="container-fluid pb-5">
-        <div class="row justify-content-md-center">
-            <div class="col-md-8">
-                <h1>Working at Executables</h1>
-            </div>
-            <div class="col-md-8">
-                <div class="video-container">
-                    <iframe src="https://www.youtube.com/embed/9No-FiEInLA"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen>
-                    </iframe>
+<main>
+    <div class="content mb-0">
+        <!-- video -->
+        <div class="container-fluid pb-5">
+            <div class="row justify-content-md-center">
+                <div class="col-md-8">
+                    <div class="row justify-content-md-center my-5">
+                        <h2 class="col-md-4">Why Executables?</h2>
+                        <p class="col-md-8 vertical-line">Executables is defined by our unique culture — one that
+                            rewards impact. We encourage our people to be bold and solve the problems they care most
+                            about. Executables employees work in small teams that move fast and iterate to develop new
+                            products. Together, we help others build stronger communities — and we're just getting
+                            started.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-8 my-5">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/9No-FiEInLA"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+                <div class="col-md-10 mt-5">
+                    <h1>Meet...</h1>
                 </div>
             </div>
         </div>
     </div>
-
-    <!-- benefits -->
-    <div class="container-fluid">
-        <div class="row justify-content-md-center">
-            <div class="col-md-8">
-                <h1>Benefits</h1>
+    <div class="jumbotron jumbotron-fluid mt-0 p-4 shadow p-4 mb-4">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-8">
+                    <h1 class="mb-0">
+                        Elena Baker
+                    </h1>
+                    <span class="badge badge-pill badge-danger">Senior Developer</span>
+                    <p class="mt-5">
+                        I love developing software everybody uses in their daily lives. For me, this is actually what
+                        makes my job quite rewarding, since our software is meant to make life's easier — all over the
+                        world.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img class="rounded-circle float-right-side" src="../../../imgs/elena_baker.jpg"
+                         alt="Picture of Elena Baker"/>
+                </div>
             </div>
-            <div class="col-md-8">
-                <table class="table table-striped">
-                    <tr>
-                        <th>Lorem ipsum</th>
-                        <th>Lorem ipsum</th>
-                    </tr>
-                    <tr>
-                        <td>Lorem ipsum</td>
-                        <td>Lorem ipsum</td>
-                    </tr>
-                    <tr>
-                        <td>Lorem ipsum</td>
-                        <td>Lorem ipsum</td>
-                    </tr>
-                    <tr>
-                        <td>Lorem ipsum</td>
-                        <td>Lorem ipsum</td>
-                    </tr>
-                </table>
+        </div>
+    </div>
+    <div class="jumbotron jumbotron-fluid mt-0 p-4 shadow p-4 mb-4">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">
+                    <img class="rounded-circle float-left-side" src="../../../imgs/james_marshall.jpg"
+                         alt="Picture of James Marshall"/>
+                </div>
+                <div class="col-md-8 text-right">
+                    <h1 class="mb-0">
+                        James Marshall
+                    </h1>
+                    <span class="badge badge-pill badge-danger">Team Manager</span>
+                    <p class="mt-5">
+                        I always wanted to be part of a team and be able to work together on much bigger project which
+                        I could not complete by myself. Executables was able to offer this to me and make a dream
+                        come true.
+                    </p>
+                </div>
             </div>
         </div>
     </div>
@@ -144,7 +175,7 @@
         <div class="row text-center">
             <div class="col-md-4">
                 <h1>About</h1>
-                <a href="../../../de/subpages/impressum/impressum.html" id="footerlink">Impressum (DE)</a>
+                <a href="../../../de/subpages/impressum.html" id="footerlink">Impressum (DE)</a>
                 <p>AGB</p>
             </div>
             <div class="col-md-4">

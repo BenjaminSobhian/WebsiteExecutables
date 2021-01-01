@@ -35,6 +35,10 @@
             crossorigin="anonymous"
     />
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <!-- AOS libary -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <!-- Eigenes CSS -->
     <link rel="stylesheet" href="../../../css/subpages/careers/jobsStyle.css"/>
     <link rel="stylesheet" href="../../../css/navbarStyle.css"/>
@@ -43,15 +47,13 @@
 
     <title>Jobs - Executables</title>
     <link rel="icon" href="../../../imgs/icon.png" type="image/x-icon">
-<!-- AOS libary -->
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
 <script>
-  AOS.init();
+    AOS.init();
 </script>
+
 <header class="wrapper">
     <!-- Navbar -->
     <nav class="navbar navbar-expand-md navbar-dark fixed-top">
@@ -68,14 +70,12 @@
         <!-- Navbar links -->
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="../newsroom.html">News and Events</a>
-                </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="" data-toggle="dropdown">About us</a>
                     <div class="dropdown-menu">
-                        <a class="dropdown-item" href="../../subpages/about_us/history.html">Our history</a>
-                        <a class="dropdown-item" href="../../subpages/about_us/vision.html">Our vision</a>
+                        <a class="dropdown-item" href="../about_us/newsroom.html">Newsroom</a>
+                        <a class="dropdown-item" href="../about_us/history.html">Our history</a>
+                        <a class="dropdown-item" href="../about_us/vision.html">Our vision</a>
                     </div>
                 </li>
                 <li class="nav-item">
@@ -87,6 +87,11 @@
                         <a class="dropdown-item" href="experience.html">Experience</a>
                         <a class="dropdown-item active" href="jobs.html">Jobs</a>
                     </div>
+                </li>
+
+                <!-- language -->
+                <li class="nav-item">
+                    <a class="nav-link" href="../../../de/subpages/careers/jobs.html">DE</a>
                 </li>
             </ul>
         </div>
@@ -102,16 +107,15 @@
                 <h1>Jobs</h1>
             </div>
             <div class="col-md-8">
-                <div class="card-deck" id="card-deck">
+                <div class="card-deck">
                     <div class="card zoom-container" onmouseover="showButton('1')" onmouseleave="hideButton('1')">
                         <div class="zoom-container">
                             <img class="card-img-top" id="img-1" src="../../../imgs/jobs/softwareEngineer.jpg"
                                  alt="Image of software engineering">
                         </div>
                         <div class="card-body" id="body-1">
-                            <h4 class="card-title">Software Engineer</h4>
-                            <a class="btn btn-danger stretched-link" id="button-1" href="application.html"
-                               onclick="apply('Software Engineer')">
+                            <h4 class="card-title">Engineering and Technology</h4>
+                            <a class="btn btn-danger stretched-link" id="button-1" href="application.html">
                                 Interested?
                             </a>
                         </div>
@@ -122,22 +126,96 @@
                                  alt="Image of marketing manager">
                         </div>
                         <div class="card-body" id="body-2">
-                            <h4 class="card-title">Marketing Manager</h4>
-                            <a class="btn btn-danger stretched-link" id="button-2" href="application.html"
-                               onclick="apply('Marketing Manager')">
+                            <h4 class="card-title">Marketing and Communication</h4>
+                            <a class="btn btn-danger stretched-link" id="button-2" href="application.html">
                                 Interested?
                             </a>
                         </div>
                     </div>
                     <div class="card zoom-container" onmouseover="showButton('3')" onmouseleave="hideButton('3')">
                         <div class="zoom-container">
-                            <img class="card-img-top" id="img-3" src="../../../imgs/jobs/designer.jpg"
+                            <img class="card-img-top" id="img-3" src="../../../imgs/jobs/webdesign.jpg"
                                  alt="Image of designer">
                         </div>
                         <div class="card-body" id="body-3">
-                            <h4 class="card-title">Designer</h4>
-                            <a class="btn btn-danger stretched-link" id="button-3" href="application.html"
-                               onclick="apply('Designer')">
+                            <h4 class="card-title">Software- and Webdesign</h4>
+                            <a class="btn btn-danger stretched-link" id="button-3" href="application.html">
+                                Interested?
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-deck">
+                    <div class="card zoom-container" onmouseover="showButton('4')" onmouseleave="hideButton('4')">
+                        <div class="zoom-container">
+                            <img class="card-img-top" id="img-4" src="../../../imgs/jobs/business.jpg"
+                                 alt="Image of designer">
+                        </div>
+                        <div class="card-body" id="body-4">
+                            <h4 class="card-title">Business Strategy</h4>
+                            <a class="btn btn-danger stretched-link" id="button-4" href="application.html">
+                                Interested?
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card zoom-container" onmouseover="showButton('5')" onmouseleave="hideButton('5')">
+                        <div class="zoom-container">
+                            <img class="card-img-top" id="img-5" src="../../../imgs/jobs/law.jpg"
+                                 alt="Image of designer">
+                        </div>
+                        <div class="card-body" id="body-5">
+                            <h4 class="card-title">Legal</h4>
+                            <a class="btn btn-danger stretched-link" id="button-5" href="application.html">
+                                Interested?
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card zoom-container" onmouseover="showButton('6')" onmouseleave="hideButton('6')">
+                        <div class="zoom-container">
+                            <img class="card-img-top" id="img-6" src="../../../imgs/jobs/finance.jpg"
+                                 alt="Image of designer">
+                        </div>
+                        <div class="card-body" id="body-6">
+                            <h4 class="card-title">Finance</h4>
+                            <a class="btn btn-danger stretched-link" id="button-6" href="application.html">
+                                Interested?
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-deck">
+                    <div class="card zoom-container" onmouseover="showButton('7')" onmouseleave="hideButton('7')">
+                        <div class="zoom-container">
+                            <img class="card-img-top" id="img-7" src="../../../imgs/jobs/human_resources.jpg"
+                                 alt="Image of designer">
+                        </div>
+                        <div class="card-body" id="body-7">
+                            <h4 class="card-title">Human Resources</h4>
+                            <a class="btn btn-danger stretched-link" id="button-7" href="application.html">
+                                Interested?
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card zoom-container" onmouseover="showButton('8')" onmouseleave="hideButton('8')">
+                        <div class="zoom-container">
+                            <img class="card-img-top" id="img-8" src="../../../imgs/jobs/productdesign.jpg"
+                                 alt="Image of designer">
+                        </div>
+                        <div class="card-body" id="body-8">
+                            <h4 class="card-title">Product design</h4>
+                            <a class="btn btn-danger stretched-link" id="button-8" href="application.html">
+                                Interested?
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card zoom-container" onmouseover="showButton('9')" onmouseleave="hideButton('9')">
+                        <div class="zoom-container">
+                            <img class="card-img-top" id="img-9" src="../../../imgs/jobs/support.jpg"
+                                 alt="Image of designer">
+                        </div>
+                        <div class="card-body" id="body-9">
+                            <h4 class="card-title">Support</h4>
+                            <a class="btn btn-danger stretched-link" id="button-9" href="application.html">
                                 Interested?
                             </a>
                         </div>
@@ -154,7 +232,7 @@
         <div class="row text-center">
             <div class="col-md-4">
                 <h1>About</h1>
-                <a href="../../../de/subpages/impressum/impressum.html" id="footerlink">Impressum (DE)</a>
+                <a href="../../../de/subpages/impressum.html" id="footerlink">Impressum (DE)</a>
                 <p>AGB</p>
             </div>
             <div class="col-md-4">

@@ -32,6 +32,10 @@
             integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
             crossorigin="anonymous"
     />
+    <!-- AOS libary -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <!-- Eigenes CSS -->
     <link rel="stylesheet" href="../../../css/subpages/careers/applicationStyle.css"/>
     <link rel="stylesheet" href="../../../css/navbarStyle.css"/>
@@ -39,15 +43,13 @@
 
     <title>Application - Executables</title>
     <link rel="icon" href="../../../imgs/icon.png" type="image/x-icon">
-<!-- AOS libary -->
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
 <script>
   AOS.init();
 </script>
+
 <header class="wrapper">
     <!-- Navbar -->
     <nav class="navbar navbar-expand-md navbar-dark fixed-top">
@@ -64,12 +66,10 @@
         <!-- Navbar links -->
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="../newsroom.html">News and Events</a>
-                </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="" data-toggle="dropdown">About us</a>
                     <div class="dropdown-menu">
+                        <a class="dropdown-item" href="../about_us/newsroom.html">Newsroom</a>
                         <a class="dropdown-item" href="../../subpages/about_us/history.html">Our history</a>
                         <a class="dropdown-item" href="../../subpages/about_us/vision.html">Our vision</a>
                     </div>
@@ -83,6 +83,11 @@
                         <a class="dropdown-item" href="experience.html">Experience</a>
                         <a class="dropdown-item" href="jobs.html">Jobs</a>
                     </div>
+                </li>
+
+                <!-- language -->
+                <li class="nav-item">
+                    <a class="nav-link" href="../../../de/subpages/careers/application.html">DE</a>
                 </li>
             </ul>
         </div>
@@ -149,7 +154,7 @@
         <div class="row text-center">
             <div class="col-md-4">
                 <h1>About</h1>
-                <a href="../../../de/subpages/impressum/impressum.html" id="footerlink">Impressum (DE)</a>
+                <a href="../../../de/subpages/impressum.html" id="footerlink">Impressum (DE)</a>
                 <p>AGB</p>
             </div>
             <div class="col-md-4">

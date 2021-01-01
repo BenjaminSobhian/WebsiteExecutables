@@ -1,0 +1,12 @@
+header {
+    width: 0 !important;
+    height: 0 !important;
+}
+
+nav {
+    background: #1D1D1D !important;
+}
+
+.content {
+    padding-top: 25px;
+}

@@ -117,6 +117,11 @@ nav ul li {
     background-color: transparent;
 }
 
+nav ul li, .dropdown-menu {
+    /* center in collapsible navbar */
+    text-align: center;
+}
+
 @media(max-width: 1360px) {
     .logo {
         top: 0;
@@ -130,9 +135,11 @@ nav ul li {
     nav.black ul {
         background: #1D1D1D;
     }
+
     .navbar {
         background: #1D1D1D;
     }
+
     .showing {
         max-height: 34em;
     }
@@ -141,6 +148,7 @@ nav ul li {
         display: block;
     }
 }
+
 @media(min-width: 1360px) {
 	.small-logo {
 		display: none;
@@ -148,11 +156,6 @@ nav ul li {
 	.logo {
 		display: block;
 	}
-}
-
-/* for language icons, todo */
-.language-img {
-    width: 40px;
 }
 
 .content {
