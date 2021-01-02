@@ -1,22 +1,169 @@
-#navbar {
-  background-color: #333; /* Black background color */
-  position: fixed; /* Make it stick/fixed */
-  top: 0; /* Stay on top */
-  width: 100%; /* Full width */
-  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
 
-/* Style the navbar links */
-#navbar a {
-  float: left;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 15px;
-  text-decoration: none;
+body {
+    font-family: "Helvetica Neue",sans-serif;
+    font-weight: lighter;
 }
 
-#navbar a:hover {
-  background-color: #ddd;
-  color: black;
+header {
+    width: 100%;
+    height: 100vh;
+
 }
+a { 
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+nav a:hover {
+	color: #dc3543;
+	text-decoration: none;
+}
+nav .active {
+	color:#dc3543; 
+}
+nav .active:hover {
+	color: #FFF;
+}
+.content {
+    width: 94%;
+    margin: 4em auto;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.logo {
+    line-height: 60px;
+    position: fixed;
+    float: left;
+    margin: 16px 46px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    line-height: 60px;
+	z-index: 100;
+}
+
+nav ul {
+    line-height: 15px;
+    list-style: none;
+    background: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    color: #fff;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    transition: 1s;
+	
+}
+
+nav.black ul {
+    background: #1D1D1D;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 16px 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 15px;
+	font-weight: 600;
+}
+
+.menu-icon {
+    line-height: 60px;
+    width: 100%;
+    background: #1D1D1D;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 15px 24px;
+    cursor: pointer;
+    color: #fff;
+    display: none;
+}
+.navbar_black {
+	-moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+	background-color: #1D1D1D;
+}
+.navbar_transparent {
+	-moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+	background-color: transparent;
+	
+}
+@media(max-width: 1360px) {
+
+    .logo {
+          position: fixed;
+          top: 0;
+          margin-top: 16px;
+    }
+
+    nav ul {
+          max-height: 0px;
+          background: #1D1D1D;
+    }
+
+    nav.black ul {
+          background: #1D1D1D;
+    }
+
+    .showing {
+          max-height: 34em;
+    }
+
+    nav ul li {
+          box-sizing: border-box;
+          width: 100%;
+          padding: 10px;
+          text-align: center;
+    }
+
+    .menu-icon {
+          display: block;
+    }
+	.logo{
+		visibility: hidden;
+	}
+
+}
+.parallax {
+  /* The image used */
+  background-image: linear-gradient(
+          rgba(0, 0, 0, 0.5), 
+          rgba(0, 0, 0, 0.5)
+        ),
+url("../../../imgs/ProductShowcase/showcaseHome.jpg");
+
+  /* Set a specific height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*---------------------------NAVBAR END--------------------------------*/

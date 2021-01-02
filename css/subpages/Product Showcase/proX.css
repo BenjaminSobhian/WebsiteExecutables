@@ -1,0 +1,17 @@
+/* CSS Document */
+html {
+  height: 100vh;
+}
+
+body {
+	height: 3000vh;
+  background: #000;
+}
+
+canvas {
+  position: fixed;
+  height:100%;
+	width:100%;
+  max-width: 100vw;
+  max-height: 100vh;
+}
