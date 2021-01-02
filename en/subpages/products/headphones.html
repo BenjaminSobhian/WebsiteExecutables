@@ -33,7 +33,8 @@
       crossorigin="anonymous"
     />
 	<link rel="stylesheet" href="../../../css/subpages/Product Showcase/headphones.css">
-	<link rel="stylesheet" href="../../../css/subpages/Product Showcase/productNav.css">
+	<link rel="stylesheet" href="../../../css/navbarStyle.css">
+
 <!-- AOS libary -->
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -43,36 +44,26 @@
 <script>
   AOS.init();
 </script>
+<div class="pc">
 	<canvas class="headphonesScrolling">
 	<script src="../../../js/ProductShowcase/headphones.js"></script>
 		</canvas>
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-  <!-- Brand -->
-  <a class="navbar-brand" href="#">Logo</a>
-
-  <!-- Links -->
-  <ul class="navbar-nav">
-    <li class="nav-item">
-      <a class="nav-link" href="#">Laptops</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Tablets/Mobile</a>
-    </li>
-
-    <!-- Dropdown -->
-    <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-        Laptops
-      </a>
-      <div class="dropdown-menu">
-        <a class="dropdown-item" href="#">Link 1</a>
-        <a class="dropdown-item" href="#">Link 2</a>
-        <a class="dropdown-item" href="#">Link 3</a>
-
-      </div>
-    </li>
-  </ul>
-</nav>
+</div>
+<nav>
+    <div class="menu-icon"> <i class="fa fa-bars fa-2x"></i> </div>
+    <div class="menu">
+      <ul>
+        <li><a href="#">Laptops</a></li>
+        <li><a href="#">Tablets/Mobile</a></li>
+        <li><a href="#">Music</a></li>
+        <li><a href="#">Accessories</a></li>
+      </ul>
+    </div>
+  </nav>
 	<script src="../../../js/ProductShowcase/productnav.js"></script>
+	
+	<div class="mobile">
+	<h1>test</h1>
+	</div>
 </body>
 </html>
