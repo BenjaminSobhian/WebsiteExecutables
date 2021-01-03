@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8"/>
+    <link
+            href="https://fonts.googleapis.com/css?family=Roboto"
+            rel="stylesheet"
+    />
+    <link
+            href="https://fonts.googleapis.com/css?family=Charmonman"
+            rel="stylesheet"
+    />
+    <link
+            href="https://fonts.googleapis.com/css?family=Mali"
+            rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Latest compiled and minified CSS -->
+    <link
+            id="bootstrap-css"
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    />
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.4.2/css/all.css"
+            integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
+            crossorigin="anonymous"
+    />
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <!-- AOS libary -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Eigenes CSS -->
+    <link rel="stylesheet" href="../../../css/subpages/about_us/newsroomStyle.css"/>
+    <link rel="stylesheet" href="../../../css/navbarStyle.css"/>
+    <script src="../../../js/navbarColoring.js"></script>
+
+    <title>Newsroom - Executables</title>
+    <link rel="icon" href="../../../imgs/icon.png" type="image/x-icon">
+</head>
+
+<body>
+<script>
+    AOS.init();
+</script>
+
+<header class="wrapper">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+        <a class="navbar-brand" href="../../index.html">
+            <img class="img-fluid logo" src="../../../imgs/logo.png" alt="Logo">
+            <img class="small-logo" src="../../../imgs/icon.png" alt="Logo">
+        </a>
+
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="" data-toggle="dropdown">Über uns</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item active" href="newsroom.html">Newsroom</a>
+                        <a class="dropdown-item" href="history.html">Unsere Geschichte</a>
+                        <a class="dropdown-item" href="vision.html">Unsere Vision</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../products/showcaseHome.html">Produktvorstellung</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="" data-toggle="dropdown">Karrieren</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="../careers/experience.html">Erlebnis</a>
+                        <a class="dropdown-item" href="../careers/jobs.html">Jobs</a>
+                    </div>
+                </li>
+
+                <!-- language -->
+                <li class="nav-item">
+                    <a class="nav-link" href="../../../en/subpages/about_us/newsroom.html">EN</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="parallax"></div>
+</header>
+
+<main class="content">
+    <div class="container-fluid mb-4">
+        <div class="row justify-content-md-center">
+            <div class="col-md-8">
+                <h1>Neuigkeiten und Veranstaltungen</h1>
+            </div>
+            <div class="col-md-8">
+                <div id="demo" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ul class="carousel-indicators">
+                        <li data-target="#demo" data-slide-to="0" class="active"></li>
+                        <li data-target="#demo" data-slide-to="1"></li>
+                        <li data-target="#demo" data-slide-to="2"></li>
+                    </ul>
+
+                    <!-- The slideshow -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="../../../imgs/news/image1.png" alt="Image 1"/>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../../../imgs/news/image2.png" alt="Image 2"/>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../../../imgs/news/image3.png" alt="Image 3"/>
+                        </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#demo" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="calendar-container">
+                    <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=2&amp;bgcolor=%23dc3543&amp;showTz=0&amp;showCalendars=0&amp;showTabs=0&amp;showPrint=0&amp;showNav=0&amp;title=Veranstaltungen"
+                            style="border-width:0">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+
+<!-- Footer -->
+<footer class="jumbotron rounded-0 bg-danger text-white mb-0">
+    <div class="container-fluid">
+        <div class="row text-center">
+            <div class="col-md-4">
+                <h1>Über uns</h1>
+                <a href="../impressum.html">Impressum</a>
+                <p>AGB</p>
+            </div>
+            <div class="col-md-4">
+                <h1>Kontakt</h1>
+                <p><i class="fas fa-phone"></i> +43 123 456789</p>
+                <p><i class="fas fa-envelope"></i> executables@exe.com</p>
+            </div>
+            <div class="col-md-4">
+                <h1>Social Media</h1>
+                <p><i class="fab fa-facebook-square"></i> Facebook</p>
+                <p><i class="fab fa-instagram"></i> Instagram</p>
+            </div>
+        </div>
+        <div class="text-center mt-5">
+            <p>Erstellt von: Oliver Sommer</p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

@@ -132,8 +132,12 @@ nav ul li, .dropdown-menu {
 		line-height: 60px;
 	}
 
-    nav.black ul {
+    nav .black ul {
         background: #1D1D1D;
+    }
+
+    .nav-item, .dropdown-item {
+        line-height: 45px;
     }
 
     .navbar {
