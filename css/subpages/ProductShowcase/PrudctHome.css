@@ -165,6 +165,14 @@ nav ul li a {
 #proXimg {
   width: 100%;
 }
+#X {
+	animation: X-color-change 5s infinite;
+}
+@keyframes X-color-change {
+	0% {color: #dc3543}
+	50% {color: white}
+	100% {color: #dc3543}
+}
 .button {
   border-radius: 4px;
   background-color: transparent;
