@@ -141,7 +141,7 @@ nav ul li a {
   background-size: cover;
 }
 /*---------------------------NAVBAR END--------------------------------*/
-#proXh1 {
+#grey-bg-proXh1 {
   padding-bottom: 10px;
   padding-top: 30px;
   color: #ffffff;
@@ -149,7 +149,7 @@ nav ul li a {
   text-align: center;
   font-size: 50px;
 }
-#proXh5 {
+#grey-bg-proXh5 {
   padding-top: 0;
   color: #ffffff;
   display: block;
@@ -164,16 +164,50 @@ nav ul li a {
 }
 #proXimg {
   width: 100%;
+	margin-bottom: 10px;
 }
 #X {
 	animation: X-color-change 5s infinite;
+}
+#white-bg-h1 {
+  padding-bottom: 10px;
+  padding-top: 30px;
+  color: #272727;
+  display: block;
+  text-align: center;
+  font-size: 50px;
+}
+#white-bg-h5 {
+  padding-top: 0;
+  color: #292929;
+  display: block;
+  text-align: center;
+}
+.mate30 {
+  margin: auto;
+  text-align: center;
+}
+#mate30img {
+	width: 80%;
+	margin-bottom: 10px;
 }
 @keyframes X-color-change {
 	0% {color: #dc3543}
 	50% {color: white}
 	100% {color: #dc3543}
 }
-.button {
+.mate-pro {
+	animation: pro-color-change 5s infinite;
+}
+@keyframes pro-color-change {
+	0% {color: #292929}
+	50% {color: #B5B5B5}
+	100% {color: #292929}
+}
+#30 {
+	color: #dc3543;
+}
+.grey-bg-button {
   border-radius: 4px;
   background-color: transparent;
   border: none;
@@ -185,13 +219,13 @@ nav ul li a {
   cursor: pointer;
   margin: auto;
 }
-.button .proX-tbnlink {
+.grey-bg-button .grey-bg-tbnlink {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
 }
-.button .proX-tbnlink:after {
+.grey-bg-button .grey-bg-tbnlink:after {
   content: '\00bb';
   position: absolute;
   opacity: 0;
@@ -199,14 +233,51 @@ nav ul li a {
   right: -20px;
   transition: 0.5s;
 }
-.button:hover .proX-tbnlink {
+.grey-bg-button:hover .grey-bg-tbnlink {
   padding-right: 25px;
   color: #dc3543;
 }
-.button:hover .proX-tbnlink:after {
+.grey-bg-button:hover .grey-bg-tbnlink:after {
   opacity: 1;
   right: 0;
 }
-.proX-tbnlink:checked {
+.grey-bg-tbnlink:checked {
+  color: white;
+}
+.white-bg-button {
+  border-radius: 4px;
+  background-color: transparent;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: auto;
+}
+.white-bg-button .white-bg-tbnlink {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.white-bg-button .white-bg-tbnlink:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.white-bg-button:hover .white-bg-tbnlink {
+  padding-right: 25px;
+  color: #dc3543;
+}
+.white-bg-button:hover .white-bg-tbnlink:after {
+  opacity: 1;
+  right: 0;
+}
+.white-bg-tbnlink:checked {
   color: white;
 }
