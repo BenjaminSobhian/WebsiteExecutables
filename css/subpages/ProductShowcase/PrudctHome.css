@@ -169,10 +169,18 @@ nav ul li a {
 #proXimg {
   width: 100%;
 	margin-bottom: 10px;
+  transition: transfrom 1s;
+  -moz-transition: transform 1s;
+  -o-transition: transform 1s;
+  -webkit-transition: transform 1s;
 }
 #gt2proimg {
   width: 70%;
   margin-bottom: 10px;
+  transition: transfrom 1s;
+  -moz-transition: transform 1s;
+  -o-transition: transform 1s;
+  -webkit-transition: transform 1s;
 }
 #X {
 	animation: X-color-change 5s infinite;
@@ -202,10 +210,21 @@ nav ul li a {
 #headphonesimg {
 	width: 80%;
 	margin-bottom: 10px;
+  transition: transfrom 1s;
+  -moz-transition: transform 1s;
+  -o-transition: transform 1s;
+  -webkit-transition: transform 1s;
+}
+.productImage:hover {
+  transform: scale(1.1);
 }
 #mate30img {
 	width: 80%;
 	margin-bottom: 10px;
+  transition: transfrom 1s;
+  -moz-transition: transform 1s;
+  -o-transition: transform 1s;
+  -webkit-transition: transform 1s;
 }
 @keyframes X-color-change {
 	0% {color: #dc3543}
