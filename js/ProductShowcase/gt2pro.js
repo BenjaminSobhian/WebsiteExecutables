@@ -1,5 +1,5 @@
 const html = document.documentElement;
-const canvas = document.querySelector('.watchScrolling');
+const canvas = document.querySelector('.gt2proScrolling');
 const context = canvas.getContext("2d");
 
 const frameCount = 1293;
