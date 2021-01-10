@@ -4,7 +4,7 @@ const context = canvas.getContext("2d");
 
 const frameCount = 2193;
 const currentFrame = index => (
-	`../../../imgs/ProductShowcase/Products/Laptops/ProX/ProX${index.toString().padStart(4, '0')}.jpg`
+    `../../../../imgs/ProductShowcase/Products/Laptops/ProX/ProX${index.toString().padStart(4, '0')}.jpg`
 )
 
 const preloadImages = () => {
