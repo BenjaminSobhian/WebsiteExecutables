@@ -141,7 +141,7 @@ nav ul li a {
   background-size: cover;
 }
 /*---------------------------NAVBAR END--------------------------------*/
-#grey-bg-proXh1 {
+.grey-bg-proXh1 {
   padding-bottom: 10px;
   padding-top: 30px;
   color: #ffffff;
@@ -149,7 +149,7 @@ nav ul li a {
   text-align: center;
   font-size: 50px;
 }
-#grey-bg-proXh5 {
+.grey-bg-proXh5 {
   padding-top: 0;
   color: #ffffff;
   display: block;
@@ -162,14 +162,22 @@ nav ul li a {
   margin: auto;
   text-align: center;
 }
+.gt2pro {
+  margin: auto;
+  text-align: center;
+}
 #proXimg {
   width: 100%;
 	margin-bottom: 10px;
 }
+#gt2proimg {
+  width: 70%;
+  margin-bottom: 10px;
+}
 #X {
 	animation: X-color-change 5s infinite;
 }
-#white-bg-h1 {
+.white-bg-h1 {
   padding-bottom: 10px;
   padding-top: 30px;
   color: #272727;
@@ -177,7 +185,7 @@ nav ul li a {
   text-align: center;
   font-size: 50px;
 }
-#white-bg-h5 {
+.white-bg-h5 {
   padding-top: 0;
   color: #292929;
   display: block;
