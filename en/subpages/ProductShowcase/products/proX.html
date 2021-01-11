@@ -42,29 +42,35 @@
 </head>
 
 <body>
+<script src="../../../../js/navbarColoring.js"></script>
 <script>
-  AOS.init();
+    AOS.init();
+
+    function mobileRedirect() {
+        if (window.innerWidth < 480) {
+            window.location.replace("mobile/proXMobile.html");
+        }
+    }
+
+    window.addEventListener("resize", mobileRedirect);
 </script>
 <div class="pc">
 	<canvas class="proXScrolling">
 	<script src="../../../../js/ProductShowcase/proX.js"></script>
 		</canvas>
 </div>
-<nav>
-    <div class="menu-icon"> <i class="fa fa-bars fa-2x"></i> </div>
-    <div class="menu">
-      <ul>
-        <li><a href="#">Laptops</a></li>
-        <li><a href="#">Tablets/Mobile</a></li>
-        <li><a href="#">Music</a></li>
-        <li><a href="#">Accessories</a></li>
-      </ul>
-    </div>
-  </nav>
-	<script src="../../../../js/ProductShowcase/productnav.js"></script>
-	
-	<div class="mobile">
-	<h1>test</h1>
-	</div>
+<header class="wrapper">
+    <nav>
+        <div class="menu-icon"><i class="fa fa-bars fa-2x"></i></div>
+        <div class="menu">
+            <ul>
+                <li><a href="#">ProX</a></li>
+                <li><a href="#">Mate30 Pro</a></li>
+                <li><a href="#">Headphones</a></li>
+                <li><a href="#">GT2 Watch Pro</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
 </body>
 </html>
