@@ -54,6 +54,7 @@
     window.addEventListener("resize", mobileRedirect);
     window.addEventListener("load", mobileRedirect);
 </script>
+<script src="../../../../../js/ProductShowcase/productnav.js"></script>
 <header class="wrapper">
     <nav>
         <div class="menu-icon"><i class="fa fa-bars fa-2x"></i></div>
@@ -68,16 +69,56 @@
         </div>
     </nav>
 </header>
-<div id="demo" class="carousel slide" data-ride="carousel">
+<div class="bg-white">
+    <div class="container">
+        <div class="row">
+            <div class="content">
+                <h1 style="text-align: center; margin-top: 20px;">Executables Pro<a id="X">X</a></h1>
+                <h5 style="margin-top: -12px; text-align: center; font-weight: lighter;">Ultra thin and always
+                    connected</h5>
+                <img id="startImg"
+                     src="../../../../../imgs/ProductShowcase/Products/Laptops/ProX/MobileImgs/startingIMG.jpg"
+                     alt="ProX">
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../../../../../js/ProductShowcase/proXMobile.js"></script>
+<!-- Tab links -->
+<div class="tab">
+    <button class="tablinks" onclick="openTab(event, 'Overview')" id="defaultOpen">Overview</button>
+    <button class="tablinks" onclick="openTab(event, 'Processor')">Processor</button>
+    <button class="tablinks" onclick="openTab(event, 'TechSpecs')">Tech Specs</button>
+</div>
 
-    <!-- Indicators -->
+<!-- Tab content -->
+<div id="Overview" class="tabcontent">
+    <h3 style="text-align: center">Overview</h3>
+    <p>content</p>
+</div>
+
+<div id="Processor" class="tabcontent">
+    <h3 style="text-align: center">Processor</h3>
+    <p>content</p>
+</div>
+
+<div id="TechSpecs" class="tabcontent">
+    <h3 style="text-align: center">Tech Specs</h3>
+    <p>content</p>
+</div>
+<script>
+    document.getElementById("defaultOpen").click();
+</script>
+<!--<div id="demo" class="carousel slide" data-ride="carousel">
+
+    &lt;!&ndash; Indicators &ndash;&gt;
     <ul class="carousel-indicators">
         <li data-target="#demo" data-slide-to="0" class="active"></li>
         <li data-target="#demo" data-slide-to="1"></li>
         <li data-target="#demo" data-slide-to="2"></li>
     </ul>
 
-    <!-- The slideshow -->
+    &lt;!&ndash; The slideshow &ndash;&gt;
     <div class="carousel-inner">
         <div class="carousel-item active">
             <img src="../../../../../imgs/ProductShowcase/Products/Laptops/ProX/ProX0593.jpg" alt="Los Angeles"
@@ -92,13 +133,14 @@
         </div>
     </div>
 
-    <!-- Left and right controls -->
+    &lt;!&ndash; Left and right controls &ndash;&gt;
     <a class="carousel-control-prev" href="#demo" data-slide="prev">
         <span class="carousel-control-prev-icon"></span>
     </a>
     <a class="carousel-control-next" href="#demo" data-slide="next">
         <span class="carousel-control-next-icon"></span>
     </a>
-</div>
+</div>-->
+
 </body>
 </html>
