@@ -127,6 +127,7 @@ nav ul li, .dropdown-menu {
         top: 0;
         display: none;
     }
+
     .small-logo {
         width: 70%;
         line-height: 60px;
@@ -151,14 +152,6 @@ nav ul li, .dropdown-menu {
     .menu-icon {
         display: block;
     }
-}
-
-.content {
-    width: 95%;
-    margin: 4em auto;
-    font-size: 20px;
-    line-height: 30px;
-    text-align: justify;
 }
 
 @media (min-width: 1360px) {
