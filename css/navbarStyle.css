@@ -153,10 +153,19 @@ nav ul li, .dropdown-menu {
     }
 }
 
-@media(min-width: 1360px) {
+.content {
+    width: 95%;
+    margin: 4em auto;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+@media (min-width: 1360px) {
     .small-logo {
         display: none;
     }
+
     .logo {
         display: block;
     }

@@ -47,11 +47,11 @@
     AOS.init();
 
 
-    function mobileRedirect() {
-        if (window.innerWidth < 480) {
-            window.location.replace("mobile/proXMobile.html");
+    const mobileRedirect = () => {
+        if (window.innerWidth <= 480) {
+            window.location.replace('mobile/proXMobile.html');
         }
-    }
+    };
 
     mobileRedirect();
     window.addEventListener("resize", mobileRedirect);
