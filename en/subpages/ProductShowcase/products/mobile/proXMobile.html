@@ -87,60 +87,146 @@
 <!-- Tab links -->
 <div class="tab">
     <button class="tablinks" onclick="openTab(event, 'Overview')" id="defaultOpen">Overview</button>
-    <button class="tablinks" onclick="openTab(event, 'Processor')">Processor</button>
     <button class="tablinks" onclick="openTab(event, 'TechSpecs')">Tech Specs</button>
+    <button class="tablinks" onclick="openTab(event, 'Gallery')">Gallery</button>
 </div>
 
 <!-- Tab content -->
 <div id="Overview" class="tabcontent">
-    <h3 style="text-align: center">Overview</h3>
-    <p>content</p>
+    <h3 style="text-align: center; font-weight: bold; padding: 40px">Built for the ways you work and connect </h3>
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/_QobdWOa02o?controls=0" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+    </div>
+    <div class="card" style="margin-top: 20px">
+        <i class="fas fa-broadcast-tower fa-6x"></i>
+        <h4 style="text-align: center; font-weight: bold; padding-top: 40px">Stay in touch with ultra-fast, consistent
+            LTE</h4>
+    </div>
+    <div class="card" style="margin-top: 20px">
+        <i class="fas fa-battery-three-quarters fa-6x"></i>
+        <h4 style="text-align: center; font-weight: bold; padding-top: 40px">Plenty of unplugged power with up to 15
+            hours battery life</h4>
+    </div>
+    <div class="card" style="margin-top: 20px">
+        <i class="fas fa-laptop fa-6x"></i>
+        <h4 style="text-align: center; font-weight: bold; padding-top: 40px">More screen space with virtually edge to
+            edge 13" touchscreen</h4>
+    </div>
+    <div class="card" style="margin-top: 20px">
+        <i class="fas fa-feather fa-6x"></i>
+        <h4 style="text-align: center; font-weight: bold; padding-top: 40px">Keep it by your side-7.3 mm thin and
+            starting at 1.7 lbs.</h4>
+    </div>
 </div>
-
-<div id="Processor" class="tabcontent">
-    <h3 style="text-align: center">Processor</h3>
-    <p>content</p>
-</div>
-
 <div id="TechSpecs" class="tabcontent">
+    <div class="card" style="margin-top: 20px">
+        <img src="../../../../../imgs/ProductShowcase/Products/Laptops/ProX/MobileImgs/proX1.jpg" alt="ProX">
+        <h6 style="text-align: left; font-weight: bold; padding-top: 40px">13" touchscreen display</h6>
+        <ul>
+            <li style="font-weight: normal; text-align: left;">See and do more on virtually edge-to-edge screen</li>
+            <li style="font-weight: normal; text-align: left;">Automatically adjusts to lightning conditions</li>
+        </ul>
+    </div>
+    <table class="table">
+        <tr>
+            <td style="font-weight: bold;">User Scenarios</td>
+            <td>Ultimate mobility for working and connecting without an office, browsing, sketching on-screen, and
+                streaming Netflix
+            </td>
+        </tr>
+        <tr>
+            <td style="font-weight: bold;">Dimensions</td>
+            <td>11.3 in x 8.2 in x 0.28 in (287 mm x 208 mm x 7.3 mm)</td>
+        </tr>
+        <tr>
+            <td style="font-weight: bold;">Display</td>
+            <td>Screen: 13” PixelSense™ Display<br>
+                Resolution: 2880x1920 (267 PPI)<br>
+                Aspect ratio: 3:2<br>
+                Touch: 10 point multi-touch
+            </td>
+        </tr>
+        <tr>
+            <td style="font-weight: bold;">Memory</td>
+            <td>8GB or 16GB LPDDR4x RAM</td>
+        </tr>
+        <tr>
+            <td style="font-weight: bold;">Processor</td>
+            <td>SQ®1<br>
+                SQ®2
+            </td>
+        </tr>
+        <tr>
+            <td style="font-weight: bold;">Battery Life</td>
+            <td>Up to 15 hours of typical device usage</td>
+        </tr>
+        <tr>
+            <td style="font-weight: bold;">Graphics</td>
+            <td>SQ®1 Adreno™ 685 GPU <br>
+                SQ® 2 Adreno™ 690 GPU
+            </td>
+        </tr>
+        <tr>
+            <td style="font-weight: bold;">Storage</td>
+            <td>Removable solid-state drive (SSD)7 options: 128, 256, or 512GB</td>
+        </tr>
+        <tr>
+            <td style="font-weight: bold;">Connections</td>
+            <td>
+                2 x USB-C®<br>
+                Executables Keyboard port<br>
+                1 x nano SIM<br>
+                Compatible with Surface Dial off-screen interaction
+            </td>
+        </tr>
+    </table>
+</div>
+
+<div id="Gallery" class="tabcontent">
     <h3 style="text-align: center">Tech Specs</h3>
-    <p>content</p>
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../../../../../imgs/ProductShowcase/Products/Laptops/ProX/MobileImgs/proX3.jpg"
+                     alt="Los Angeles"
+                     width="1920" height="1080">
+            </div>
+            <div class="carousel-item">
+                <img src="../../../../../imgs/ProductShowcase/Products/Laptops/ProX/MobileImgs/proX1.jpg" alt="Chicago"
+                     width="1920"
+                     height="1080">
+            </div>
+            <div class="carousel-item">
+                <img src="../../../../../imgs/ProductShowcase/Products/Laptops/ProX/MobileImgs/proX2.jpg" alt="New York"
+                     width="1920" height="1080">
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+
 </div>
 <script>
     document.getElementById("defaultOpen").click();
 </script>
-<!--<div id="demo" class="carousel slide" data-ride="carousel">
 
-    &lt;!&ndash; Indicators &ndash;&gt;
-    <ul class="carousel-indicators">
-        <li data-target="#demo" data-slide-to="0" class="active"></li>
-        <li data-target="#demo" data-slide-to="1"></li>
-        <li data-target="#demo" data-slide-to="2"></li>
-    </ul>
-
-    &lt;!&ndash; The slideshow &ndash;&gt;
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img src="../../../../../imgs/ProductShowcase/Products/Laptops/ProX/ProX0593.jpg" alt="Los Angeles"
-                 width="1920" height="1080">
-        </div>
-        <div class="carousel-item">
-            <img src="../../../../../imgs/ProductShowcase/Products/Laptops/ProX/ProX2077.jpg" alt="Chicago" width="1920"
-                 height="1080">
-        </div>
-        <div class="carousel-item">
-            <img src="ny.jpg" alt="New York" width="1100" height="500">
-        </div>
-    </div>
-
-    &lt;!&ndash; Left and right controls &ndash;&gt;
-    <a class="carousel-control-prev" href="#demo" data-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
-    </a>
-    <a class="carousel-control-next" href="#demo" data-slide="next">
-        <span class="carousel-control-next-icon"></span>
-    </a>
-</div>-->
 
 </body>
 </html>
