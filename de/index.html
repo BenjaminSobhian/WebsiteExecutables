@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="utf-8"/>
     <link
@@ -43,8 +43,11 @@
     <link rel="stylesheet" href="../css/indexStyle.css"/>
     <link rel="stylesheet" href="../css/navbarStyle.css"/>
     <script src="../js/navbarColoring.js"></script>
+
     <title>Executables</title>
     <link rel="icon" href="../imgs/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/subpages/about_us/newsroomStyle.css">
+    <link rel="stylesheet" href="../css/subpages/ProductShowcase/PrudctHome.css">
 </head>
 
 <body>
@@ -61,35 +64,34 @@
         </a>
 
         <!-- Toggler/collapsibe Button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"><span
+                class="navbar-toggler-icon"></span></button>
 
         <!-- Navbar links -->
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="" data-toggle="dropdown">Über uns</a>
+                    <a class="nav-link dropdown-toggle" href="" data-toggle="dropdown">About us</a>
                     <div class="dropdown-menu">
                         <a class="dropdown-item" href="subpages/about_us/newsroom.html">Newsroom</a>
-                        <a class="dropdown-item" href="subpages/about_us/history.html">Unsere Geschichte</a>
-                        <a class="dropdown-item" href="subpages/about_us/vision.html">Unsere Vision</a>
+                        <a class="dropdown-item" href="subpages/about_us/history.html">Our history</a>
+                        <a class="dropdown-item" href="subpages/about_us/vision.html">Our vision</a>
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="subpages/products/showcaseHome.html">Produktvorstellung</a>
+                    <a class="nav-link" href="subpages/ProductShowcase/showcaseHome.html">Product showcase</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="" data-toggle="dropdown">Karrieren</a>
+                    <a class="nav-link dropdown-toggle" href="" data-toggle="dropdown">Careers</a>
                     <div class="dropdown-menu">
-                        <a class="dropdown-item" href="subpages/careers/experience.html">Erlebnis</a>
+                        <a class="dropdown-item" href="subpages/careers/experience.html">Experience</a>
                         <a class="dropdown-item" href="subpages/careers/jobs.html">Jobs</a>
                     </div>
                 </li>
 
                 <!-- language -->
                 <li class="nav-item">
-                    <a class="nav-link" href="../en/index.html">EN</a>
+                    <a class="nav-link" href="../de/index.html">DE</a>
                 </li>
             </ul>
         </div>
@@ -116,24 +118,82 @@
     </div>
 </header>
 <main class="content p-5">
-    <h3 class="m-4" data-aos="fade-up"> We build technologies that help people connect with friends and family, find
-        communities, and grow businesses.
 
-
-        todo </h3>
+    <h1 class="bright-h1" data-aos="fade-up" style="text-align: center"> We build technologies that help people connect
+        with friends and family, find communities, and grow businesses.</h1>
 </main>
 
+<div class="jumbotron rounded-0 bg-dark" style="margin: auto">
+    <div class="container-fluid mb-4" style="margin: auto">
+        <h1 style="text-align: center; color: white;">Our top story</h1>
+        <div class="col-md-10 my-3 top-border" style="margin: auto">
+            <div class="row justify-content-md-center" style="margin: auto">
+                <!-- news -->
+                <div class="col-md-3 " style="margin: auto">
+                    <img class="img-fluid" src="../imgs/news/covid.jpg" alt="Covid-19"/>
+                </div>
+                <div class="col-md-9" style="margin: auto">
+                    <h2 class="red-heading mb-0">Keeping People Safe and Informed About the Coronavirus</h2>
+                    <h5 style="color: white">December 21<sup>th</sup></h5>
+                    <p style="color: white">Executables is supporting global health experts, local governments,
+                        businesses and
+                        communities affected by COVID-19.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="bg-white">
+    <div class="container">
+        <div class="row">
+            <div class="mate30" data-aos="fade-up">
+                <h1 class="white-bg-h1">Executables Mate <a id="30">30</a> <a class="mate-pro">Pro</a></h1>
+                <h5 class="white-bg-h5">The new <a class="mate-pro">pro</a> model of the popular Executables Mate30 is
+                    now available in all countries</h5>
+                <button class="white-bg-button">
+                    <a class="white-bg-tbnlink" href="subpages/ProductShowcase/products/mate30pro.html">Learn more </a>
+                </button>
+                <div style="text-align: center;">
+                    <img class="productImage" id="mate30img" src="../imgs/ProductShowcase/mate30pro.jpg"
+                         alt="Image of mate30pro">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="jumbotron rounded-0 bg-dark" style="margin: auto">
+    <div class="container-fluid" style="margin: auto">
+        <h1 style="text-align: center; color: white;">We're hiring!</h1>
+        <div class="col-md-10 my-3 top-border" style="margin: auto">
+            <div class="row" style="margin: auto">
+                <!-- news -->
+                <div style="text-align: center; margin: auto">
+                    <div class="">
+                        <h3 class="white-heading" style="text-align: center; color: white;">We are <a
+                                style="color: #DC3543">actively </a>looking for people who are <a
+                                style="color: #DC3543">
+                            web developers</a></h3>
+                        <h5 style="color: white" style="text-align: center">We are also hiring for other positions</h5>
+                        <button class="white-bg-button">
+                            <a class="white-bg-tbnlink" href="subpages/careers/jobs.html">Apply now </a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <!-- Footer -->
 <footer class="jumbotron rounded-0 bg-danger text-white mb-0">
     <div class="container-fluid">
         <div class="row text-center">
             <div class="col-md-4">
-                <h1>Über uns</h1>
-                <a href="subpages/impressum.html">Impressum</a>
+                <h1>About</h1>
+                <a href="../de/subpages/impressum.html" id="footerlink">Impressum (DE)</a>
                 <p>AGB</p>
             </div>
             <div class="col-md-4">
-                <h1>Kontakt</h1>
+                <h1>Contact</h1>
                 <p><i class="fas fa-phone"></i> +43 123 456789</p>
                 <p><i class="fas fa-envelope"></i> executables@exe.com</p>
             </div>
@@ -144,7 +204,7 @@
             </div>
         </div>
         <div class="text-center mt-5">
-            <p>Erstellt von: Benjamin Sobhian</p>
+            <p>Created by: Benjamin Sobhian</p>
         </div>
     </div>
 </footer>
